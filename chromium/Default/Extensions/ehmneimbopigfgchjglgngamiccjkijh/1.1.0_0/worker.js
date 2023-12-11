@@ -1,0 +1,1 @@
+try{importScripts("background.js")}catch(c){}

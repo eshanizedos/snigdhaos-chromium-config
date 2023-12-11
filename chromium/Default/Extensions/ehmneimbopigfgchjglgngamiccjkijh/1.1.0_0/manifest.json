@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_title": "__MSG_title__"
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/static/128.png",
+      "32": "assets/static/32.png",
+      "64": "assets/static/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwLSsiPccqUteSg9DG5gD7p6E8Aftha0VyC/60JqqVoGPwjuT01KPkzwUfs+tnbhVABbBX955StsH7XzczihmwpfRuJKngrNVhhzsm7sKX8zwKUXeALKiIUfHrRbYNywBJLOEZ3ETeyxKdGyoYM/T1+UPT6s9aqCOUSGxipIDcQLYwxAUucmQoSeBDj+1rXUvDdYPjVGVxsJX10BVqkxJPI/QyQIf/h8BmPmw8xlq+cQRIZyigDZkuEq3JpZSvroeY1HjHiYVIaR6ZflGVmB3ouP99TdaMbHwiVngolVO0qk4dHr/nj4CY0Z/3AF+LX2xKQsWp7pZUlP+uJRf3/rKZwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "permissions": [ "storage", "tabs", "scripting", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "static/*", "assets/*.svg", "assets/*.png", "assets/*.css", "assets/*.otf" ]
+   } ]
+}

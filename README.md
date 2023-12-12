@@ -1,1 +1,0 @@
-# snigdhaos-chromium-config
